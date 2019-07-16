@@ -23,7 +23,10 @@ public class SemaphoreDemo
 	public static void main(String[] args)
 	{
 		//3个停车位
+
 		Semaphore sp =new Semaphore(5);
+
+
 		//六台汽车
 		for (int i = 1; i <=6; i++) {
 			new Thread(()->{
