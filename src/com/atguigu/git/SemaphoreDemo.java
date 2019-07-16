@@ -24,8 +24,8 @@ public class SemaphoreDemo
 	{
 		//3个停车位
 
-		Semaphore sp =new Semaphore(5);
-
+		Semaphore sp =new Semaphore(4);
+		System.out.println("停车位主");
 
 		//六台汽车
 		for (int i = 1; i <=6; i++) {
